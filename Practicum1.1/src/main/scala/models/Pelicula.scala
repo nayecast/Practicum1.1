@@ -1,0 +1,32 @@
+package models
+
+case class Pelicula(
+                     adult: String,
+                     belongs_to_collection: String,
+                     budget: String,
+                     genres: String,
+                     homepage: String,
+                     id: String,
+                     imdb_id: String,
+                     original_language: String,
+                     original_title: String,
+                     overview: String,
+                     popularity: String,
+                     poster_path: String,
+                     production_companies: String,
+                     production_countries: String,
+                     release_date: String,
+                     revenue: String,
+                     runtime: String,
+                     spoken_languages: String,
+                     status: String,
+                     tagline: String,
+                     title: String,
+                     video: String,
+                     vote_average: String,
+                     vote_count: String,
+                     keywords: String,
+                     cast: String,
+                     crew: String,
+                     ratings: String
+                   )
